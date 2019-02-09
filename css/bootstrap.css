@@ -6371,15 +6371,11 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
-.visible-xs,
 .visible-sm,
 .visible-md,
 .visible-lg {
   display: none !important;
 }
-.visible-xs-block,
-.visible-xs-inline,
-.visible-xs-inline-block,
 .visible-sm-block,
 .visible-sm-inline,
 .visible-sm-inline-block,
@@ -6390,36 +6386,6 @@ button.close {
 .visible-lg-inline,
 .visible-lg-inline-block {
   display: none !important;
-}
-@media (max-width: 767px) {
-  .visible-xs {
-    display: block !important;
-  }
-  table.visible-xs {
-    display: table;
-  }
-  tr.visible-xs {
-    display: table-row !important;
-  }
-  th.visible-xs,
-  td.visible-xs {
-    display: table-cell !important;
-  }
-}
-@media (max-width: 767px) {
-  .visible-xs-block {
-    display: block !important;
-  }
-}
-@media (max-width: 767px) {
-  .visible-xs-inline {
-    display: inline !important;
-  }
-}
-@media (max-width: 767px) {
-  .visible-xs-inline-block {
-    display: inline-block !important;
-  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
@@ -6509,11 +6475,6 @@ button.close {
 @media (min-width: 1200px) {
   .visible-lg-inline-block {
     display: inline-block !important;
-  }
-}
-@media (max-width: 767px) {
-  .hidden-xs {
-    display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
